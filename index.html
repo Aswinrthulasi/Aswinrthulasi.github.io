@@ -1,375 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/
+    libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Aswin Thulasi R | Social Card</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&family=Raleway:ital,wght@1,200;1,300&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Poppins:ital,wght@0,600;1,400&family=Raleway:ital,wght@1,200;1,300&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Poppins:ital,wght@0,600;1,400&family=Raleway:ital,wght@1,200;1,300&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Poppins:ital,wght@0,600;1,400&family=Raleway:ital,wght@1,200;1,300&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
-
-
 </head>
-<style>
-    * {
-        margin: 0%;
-        padding: 0%;
-    }
-
-    body {
-        background-color: blueviolet;
-        color: aliceblue;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 100px;
-        background-color: rgba(108, 21, 189, 0.782);
-    }
-
-    nav ul {
-        display: flex;
-        justify-content: center;
-    }
-
-    nav ul li {
-        list-style: none;
-        margin: 0 23px;
-
-    }
-
-    nav ul li a {
-        text-decoration: none;
-        color: aliceblue;
-
-    }
-
-    nav ul li a:hover {
-        color: rgb(126, 126, 249);
-        font-size: 1.02rem;
-
-    }
-
-    .left {
-        font-size: 2.1rem;
-    }
-
-    .firstSection {
-        display: flex;
-        justify-content: space-around;
-        margin: 80px 0;
-
-    }
-
-    .firstSection>div {
-        width: 30%;
-    }
-
-    .leftSection {
-
-        font-size: 1.6rem;
-        margin: 30px 0;
-        opacity: 90%;
-    }
-
-    .rightSection img {
-        width: 90%;
-        margin: -64px 0;
-        mix-blend-mode: darken;
-
-
-
-    }
-
-    .purple {
-        color: rgb(2, 26, 67);
-    }
-
-    .change {
-
-
-        color: rgb(2, 24, 61);
-
-        animation: changeColor 0.5s infinite alternate;
-    }
-
-    @keyframes changeColor {
-        0% {
-            color: rgb(248, 251, 251);
-            /* Start with red color */
-        }
-
-        25% {
-            color: blue;
-            /* Change to blue at 25% of the animation */
-        }
-
-        50% {
-            color: rgb(238, 22, 231);
-            /* Change to green at 50% of the animation */
-        }
-
-        75% {
-            color: rgb(248, 202, 118);
-            /* Change to orange at 75% of the animation */
-        }
-
-        100% {
-            color: rgb(16, 1, 1);
-            /* Return to red at the end of the animation */
-        }
-    }
-
-    .secondSection {
-        display: flex;
-        justify-content: space-around;
-        margin: 80px 0;
-
-    }
-
-    .leftSection2 {
-        font-size: 6rem;
-        margin: 30px 0;
-        opacity: 90%;
-        justify-content: space-around;
-        align-items: center;
-        color: rgb(5, 32, 75);
-
-    }
-
-    .white-border {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 2px;
-        /* Adjust the border height as needed */
-        background-color: white;
-        /* Set the color of the white border */
-    }
-
-    .leftSection3 {
-        margin: 150px;
-        font-size: 1.6rem;
-        text-decoration: underline;
-        text-underline-offset: 10px;
-    }
-
-    .aboutdescription {
-        font-size: 18px;
-        /* Set the smaller font size */
-        margin-left: 150px;
-        /* Add left margin of 80px */
-        max-width: 50%;
-        /* Limit the width to 50% of the container (to stay on one side of the screen) */
-        text-align: left;
-        /* Left-align the text within the description */
-        display: inline-block;
-        /* Make sure the paragraph stays inline */
-        margin-top: -80px;
-        font-family: 'Poppins', sans-serif;
-        font-family: 'Raleway', sans-serif;
-    }
-
-    /* Use margin-bottom to add space between paragraphs */
-    p {
-        margin-bottom: 40px;
-        /* Adjust the value as needed */
-    }
-
-    .AAPKA-DOCTOR {
-        font-size: 18px;
-        /* Set the smaller font size */
-        margin-left: 150px;
-        /* Add left margin of 80px */
-        max-width: 50%;
-        color: rgb(254, 252, 252);
-        font-family: 'Lora', serif;
-
-
-
-
-    }
-
-
-    .animated-text {
-        animation: textAnimation 2s ease-in-out infinite;
-        /* Apply the animation to the class */
-    }
-
-    .AAPKA {
-        font-family: 'Inconsolata', monospace;
-        font-size: 17px;
-    }
-
-    .positions {
-        margin-top: -80px;
-    }
-
-    .projectdescription {
-        margin-top: -80px;
-    }
-
-    .social-icons {
-        margin: 150px;
-        font-size: 1rem;
-        text-decoration: underline;
-        text-underline-offset: 10px;
-        margin-top: -80px;
-
-    }
-
-    footer {
-        background-color: #360b50;
-        color: #fff;
-        padding: 10px;
-        text-align: center;
-        color: white;
-    }
-</style>
-
 <body>
-    <header>
-        <nav>
-            <div class="left">ASWIN THULASI R</div>
-            <div class="right">
-                <ul>
-                    <li><a href="#one">Home</a></li>
-                    <li><a href="#two">About</a></li>
-                    <li><a href="#three">Projects</a></li>
-                    <li><a href="#four">Positions</a></li>
-                    <li><a href="#six">Contact</a></li>
-                </ul>
-
+    <div class="container">
+        <div class="card">
+            <div class="card__1">
+                <div class="ham">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                    <i class="fa-solid fa-house"></i>
+                </div>
+                <img src="./2842680.jpeg" alt="">
+                <div class="content">
+                    <h1>ASWIN THULASI R</h1>
+                    <p>FRONT-END DEVELOPER</p>
+                </div>
+                <div class="social">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <a href="https://www.linkedin.com/in/aswin-thulasi-363443213" class="btn">Follow</a>
             </div>
-
-        </nav>
-    </header>
-
-    <main>
-        <section id="one" class="firstSection">
-            <div class="leftSection">
-                Hi, My Name is <span class="purple">Aswin Thulasi R</span>
-                <div>and I am a <span class="change">Front-End Developer</span> </div>
+            <div class="card__2">
+                <p>PROMOTE FREE AND OPEN SOURCE</p>
+                <a href="#one"><i class="fa-solid fa-arrow-down" ></i></a>
             </div>
-            <div class="rightSection">
-                <img src="2842680.jpg" alt="">
-            </div>
-        </section>
-
-        <section id="two" class="secondSection">
-            <div class="leftSection2">
-                <span id="element"></span>
-            </div>
-
-
-
-        </section>
-    </main>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#element', {
-            strings: ['PROMOTE', 'FREE', 'AND', 'OPEN', 'SOURCE'],
-            typeSpeed: 40,
-            loop: true,
-        });
-    </script>
-
-    <section id="three" class="thirdSection">
-        <div class="white-border"></div>
-        <div class="leftSection3">About</div>
-        <div class="aboutdescription">
-            <p>Hello! I'm a Computer Engineering student, studying in College of Engineering,
-                Attingal , and a passionate front-end developer with a love for creating visually stunning and
-                user-friendly
-                websites. My journey in web development has allowed me to blend my creativity with technical skills to
-                craft
-                engaging digital experiences.</p>
-            <p>My interests don't stop there. When I'm not coding, you'll often find me
-                behind the mic, expressing
-                myself through music as a singer. Singing is my second love, and it's where I find solace and
-                inspiration.</p>
         </div>
-
-    </section>
-
-
-    <section id="four" class="fourthSection">
-        <div class="leftSection3">Projects</div>
-        <div class="projectdescription">
-            <p><span class="AAPKA-DOCTOR">Aapka Doctor</span> <span class="AAPKA">Online Doctor Appointment booking and
-                    consultation website</span>
-            </p>
-            <p><span class="AAPKA-DOCTOR">KWA Petition site</span> <span class="AAPKA">Online petition registration
-                    website for Kerala Water
-                    Authority Varkala sub division</span></p>
-            <p><span class="AAPKA-DOCTOR">CEAL Petition site</span> <span class="AAPKA">Online petition website for
-                    College of
-                    Engineering,Attingal(On-going)</span></p>
-            <p><span class="AAPKA-DOCTOR">ChatVibe</span> <span class="AAPKA">Online mood analyzer website
-                    (On-going)</span></p>
-            <p><span class="AAPKA-DOCTOR">And More...</span></p>
-
-        </div>
-    </section>
-
-    <section id="five" class="fifthSection">
-        <div class="leftSection3">Positions</div>
-        <div class="positions">
-            <p><span class="AAPKA-DOCTOR">CFA(Chief Foss Ambassador),FOSS CEAL 2024</span></p>
-            <p><span class="AAPKA-DOCTOR">CCO(Chief Creative Officer),ALCHEMY-IEDC CEAL 2022-2024</span></p>
-            <p><span class="AAPKA-DOCTOR">Marketing Manager,IEDC CEAL 2021</span></p>
-            <p><span class="AAPKA-DOCTOR">Executive Board Member,IEDC CEAL 2020-2024</span></p>
-            <p><span class="AAPKA-DOCTOR">Industry Connect and PR team lead,GDSC 2022</span></p>
-            <p><span class="AAPKA-DOCTOR">Secratery,LAYAM CEAL 2023-2024</span></p>
-            <p><span class="AAPKA-DOCTOR">OFFICIAL,FREEDOM FEST 2023</span></p>
-            <p><span class="AAPKA-DOCTOR">Technical Coordinator,DakshaYanthra 2023-2024</span></p>
-        </div>
-        <section id="six" class="sixthSection">
-            <div class="leftSection3">Contact</div>
-            <div class="social-icons">
-                <p>Instagram/aswinrthulasi </p>
-                <p>LinkedIn/aswin thulasi r</p>
-                <p>GitHub/Aswin thulasi</p>
-            </div>
-
-            <footer>
-                <p>&copy; www.aswinthulasir.com. All rights reserved.</p>
-                <p>Contact: <a href="mailto:aswinthulasi007@gmail.com">aswinthulasi007@gmail.com</a></p>
-            </footer>
-
-
+    </div>
 </body>
-
+<footer id="one">
+    <p>&copy; 2023 Aswin Thulasi R . All Rights Reserved.</p>
+    <p>Contact: <a href="mailto:aswinthulasi007@gmail.com">aswinthulasi007@gmail.com</a></p>
+</footer>
 </html>
